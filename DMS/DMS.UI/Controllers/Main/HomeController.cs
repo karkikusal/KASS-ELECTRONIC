@@ -52,7 +52,7 @@ namespace DMS.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            
             return View();
         }
 
@@ -60,6 +60,42 @@ namespace DMS.Controllers
         {
             return RedirectToAction("Index");
         }
+        public ActionResult Homeappliance()
+        {
+            
+            return View();
+        }
+        public ActionResult Ghar()
+        {
 
+            return View();
+        }
+        public ActionResult accessories()
+        {
+
+            return View();
+        }
+        public ActionResult computing()
+        {
+
+            return View();
+        }
+        public ActionResult mobile()
+        {
+
+            return View();
+        }
+
+        public ActionResult search()
+        {
+
+            return View();
+        }
+
+        public ActionResult service()
+        {
+
+            return View();
+        }
     }
 }
