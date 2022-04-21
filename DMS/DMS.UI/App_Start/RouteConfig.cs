@@ -20,6 +20,7 @@ namespace DMS
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Dashboard", id = UrlParameter.Optional }
+               
             );
         }
     }
